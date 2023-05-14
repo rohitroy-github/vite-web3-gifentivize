@@ -21,3 +21,6 @@ yarn-error.log*
 # Build artifacts and dependencies
 build/
 cache/
+
+# My files
+readMeRohit
