@@ -1,11 +1,8 @@
 <h2>Gifentivize</h2>
 
 <b>
-This is a Vite + Web3.0 project where we can send crypto currencies to any wallet address across the world with the help of Blockchain (Sepolia testnet).
-In addition to this a GIF will be added to every transaction, relevant to the keyword provided by the user recorded on chain.
+This is a Vite + Web3.0 project where we can send crypto currencies to any wallet address across the world with the help of Blockchain (Sepolia testnet). In addition to this a GIF will be appended to every transaction, relevant to the keyword provided by the user recorded on chain, which will be displayed on the home page along with all the recorded transactions.
 </b>
-
-Currently the app is working is deployed using <b>Sepolia test network</b> and Alchemy.
 
 <b>Snapshots from the project : </b>
 
