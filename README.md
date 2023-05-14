@@ -1,8 +1,35 @@
-<h3>Project >>> <b>MordernCryptoTransact</b></h3>
+<h2>Gifentivize</h2>
 
-This is a <b>Vite[React JS] + Web3.0</b> project where we can send <b>crypto currencies</b> to any specific address across the world with the help of <b>Blockchain</b>.
-In addition to this a <b>GIF</b> will be added to every <b>transaction</b>, relevant to the <b>keyword</b> provided by the user<br />
+<b>
+This is a Vite + Web3.0 project where we can send crypto currencies to any wallet address across the world with the help of Blockchain (Sepolia testnet).
+In addition to this a GIF will be added to every transaction, relevant to the keyword provided by the user recorded on chain.
+</b>
 
-Currently I'm testing the smart contracts over <a href="https://goerlifaucet.com/"><b>Goerli</a> Ethereum</b> test net integrated with <a href="https://hardhat.org/"><b>HardHat</b></a> Blockchain development environment ! <br />
+Currently the app is working is deployed using <b>Sepolia test network</b> and Alchemy.
 
-This project is currently under development phase using Goerli test net. I'll be updating this live very soon, so feel free to add a star if you like the development !<br />
+<b>Snapshots from the project : </b>
+
+![c1](https://github.com/rohitroy-github/vite-voting-dapp/assets/68563695/797ef5ad-8df6-484b-8a75-ceff84e576fd)
+
+![c3](https://github.com/rohitroy-github/vite-voting-dapp/assets/68563695/d50d4440-79d4-485f-932a-b320358ae7c1)
+
+![c4](https://github.com/rohitroy-github/vite-voting-dapp/assets/68563695/8063f77f-676e-4b13-b179-992fc9e62530)
+
+<b>Tech Stack :</b>
+
+<b>Frontend :</b>
+
+<ul>
+    <li>Vite JS</li>
+    <li>Tailwind CSS</li>
+</ul>
+<b>Backend :</b>
+<ul>
+    <li>Node JS</li>
+    <li>Hardhat Development Environment</li>
+    <li>Metamask Wallet</li>
+    <li>Ethers JS</li>
+    <li>Alchemy</li>
+</ul>
+
+The project is complete but I'm making constant modifications to the project.
