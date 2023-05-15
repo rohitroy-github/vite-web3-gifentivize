@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex md:justify-center sm:justify-around nav-white-glassmorphism">
-      <div className="md:w-[75%] sm:w-[90%] flex sm:justify-between p-5">
+      <div className="md:w-[75%] sm:w-[90%] flex sm:justify-between p-5 sm:px-10">
         <div className="md:flex-[1] items-left">
           <h3 className="text-2xl sm:text-3xl text-white text-gradient text-left">
             Gifentivize

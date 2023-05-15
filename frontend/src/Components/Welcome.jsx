@@ -49,8 +49,8 @@ const Welcome = () => {
   };
 
   return (
-    <div className="flex w-full justify-center items-center h-[100vh] sm:h-[100vh]">
-      <div className="md:w-[75%] w-full flex mf:flex-row flex-col justify-center md:px-10 md:py-20 px-5">
+    <div className="flex w-full justify-center items-center md:h-[100vh]">
+      <div className="md:w-[75%] sm:w-[90%] w-full flex mf:flex-row flex-col justify-center md:px-10 md:py-20 sm:p-10">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
           <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
             Send crypto <br /> across the world & get gifentives.

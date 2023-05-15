@@ -22,8 +22,8 @@ const ServiceCard = ({color, title, icon, subtitle}) => (
 );
 
 const Services = () => (
-  <div className="flex w-full justify-center items-center gradient-bg-services h-[100vh]">
-    <div className="md:w-[75%] w-full flex mf:flex-row flex-col justify-center ">
+  <div className="flex w-full justify-center items-center gradient-bg-services md:h-[100vh]">
+    <div className="md:w-[75%] sm:w-[90%] w-full flex mf:flex-row flex-col justify-center sm:p-10">
       <div className="flex-1 flex flex-col justify-center items-start">
         <h1 className="text-white text-3xl sm:text-5xl py-5 text-gradient ">
           Services that we
@@ -49,7 +49,7 @@ const Services = () => (
           color="bg-[#8945F8]"
           title="Best exchange rates !"
           icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="Get the best exchange rates in the market by using Gifentivize. "
+          subtitle="Get the best exchange and transaction rates in the market with Gifentivize."
         />
         <ServiceCard
           color="bg-[#F84550]"
@@ -61,7 +61,7 @@ const Services = () => (
           color="bg-[#E30B5D]"
           title="Gifentivize transactions !"
           icon={<AiOutlineFileGif fontSize={21} className="text-white" />}
-          subtitle="Just make your transactions. We'll make them cool by adding a GIF based on your entered keyword."
+          subtitle="We'll make your transactions a bit more cool by adding a GIF based on your entered keyword."
         />
       </div>
     </div>
