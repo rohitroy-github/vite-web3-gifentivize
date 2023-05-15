@@ -3,9 +3,9 @@
 import React from "react";
 
 const Footer = () => (
-  <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
-    <div className="w-full flex md:flex-row flex-col justify-evenly items-center my-4">
-      <div className="flex flex-[0.6] justify-center items-center">
+  <div className="w-full flex justify-center items-center flex-col p-4 gradient-bg-footer">
+    <div className="md:w-[75%] w-full flex justify-center my-4">
+      <div className="md:flex-[1] justify-self-center tems-center">
         <h3 className="text-2xl sm:text-3xl text-white text-gradient">
           Gifentivize
         </h3>
@@ -44,9 +44,9 @@ const Footer = () => (
       </p>
     </div>
 
-    <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5 " />
+    <div className="sm:w-[75%] w-full h-[0.25px] bg-gray-400 mt-5 " />
 
-    <div className="sm:w-[90%] w-full flex justify-between items-center mt-3">
+    <div className="sm:w-[75%] w-full flex justify-between items-center mt-3">
       <p className="text-white text-left text-xs">Rohit Roy</p>
       <p className="text-white text-right text-xs">
         All rights reserved | 2022
