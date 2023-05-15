@@ -21,10 +21,10 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
   return (
-    <nav className="w-full flex justify-center items-center p-5">
-      <div className="md:w-[75%] w-full flex justify-center">
-        <div className="md:flex-[1] justify-self-center tems-center">
-          <h3 className="text-2xl sm:text-3xl text-white text-gradient">
+    <nav className="w-full flex md:justify-center sm:justify-around nav-white-glassmorphism">
+      <div className="md:w-[75%] sm:w-[90%] flex sm:justify-between p-5">
+        <div className="md:flex-[1] items-left">
+          <h3 className="text-2xl sm:text-3xl text-white text-gradient text-left">
             Gifentivize
           </h3>
         </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
           )}
           {toggleMenu && (
             <ul
-              className="z-10 fixed -top-0 -right-2 p-3 w-[50vw] h-screen shadow-2xl md:hidden list-none
+              className="z-10 fixed -top-0 -right-2 p-3 w-[30vw] h-screen shadow-2xl md:hidden list-none
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
             >
               <li className="text-xl w-full my-2">
@@ -78,6 +78,19 @@ const Navbar = () => {
                     classprops="my-2 text-lg"
                   />
                 )
+              )}
+
+              {!currentAccount ? (
+                <button onClick={connectWallet}>
+                  {" "}
+                  <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
+                    Connect
+                  </li>
+                </button>
+              ) : (
+                <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
+                  Connected
+                </li>
               )}
             </ul>
           )}

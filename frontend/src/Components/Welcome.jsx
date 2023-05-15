@@ -49,15 +49,15 @@ const Welcome = () => {
   };
 
   return (
-    <div className="flex w-full justify-center items-center">
+    <div className="flex w-full justify-center items-center h-[100vh] sm:h-[100vh]">
       <div className="md:w-[75%] w-full flex mf:flex-row flex-col justify-center md:px-10 md:py-20 px-5">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
           <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-            Send crypto <br /> across the world
+            Send crypto <br /> across the world & get gifentives.
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the crypto world. Buy and sell cryptocurrencies easily on
-            Gifentivize.
+            We make your transactions a bit more cool. Buy and sell
+            cryptocurrencies easily with Gifentivize.
           </p>
 
           {!currentAccount ? (
@@ -84,7 +84,7 @@ const Welcome = () => {
           )}
 
           {/* Grid Portion */}
-          <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-0">
+          <div className="grid sm:grid-cols-3 grid-cols-3 w-full mt-0">
             <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
               Reliability
             </div>
