@@ -73,7 +73,7 @@ export const TransactionProvider = ({children}) => {
           })
         );
 
-        console.log(availableTransactions);
+        // console.log(availableTransactions);
 
         setTransactions(structuredTransactions);
       } else {

@@ -25,8 +25,8 @@ const TransactionsCard = ({
     <div
       className="bg-[#181918] m-5 flex flex-1
     2xl:min-w-[300px]
-    2xl:max-w-[350px]
-    sm:min-w-[250px]
+    2xl:max-w-[320px]
+    sm:min-w-[200px]
     sm:max-w-[250px]
     min-w-full
     flex-col p-5 rounded-md hover:shadow-2xl"
@@ -63,7 +63,7 @@ const TransactionsCard = ({
         <img
           src={gifUrl || url}
           alt="gif"
-          className="w-full h-50 2xl:h-80 rounded-md shadow-lg object-cover"
+          className="w-full h-80 2xl:h-100 rounded-md shadow-lg object-cover"
         />
         <div className="bg-black p-3 px-5 w-max rounded-3xl -mt-5 shadow-2xl">
           <p className="text-[#37c7da] font-bold">{timestamp}</p>
@@ -77,20 +77,32 @@ const Transactions = () => {
   const {transactions, currentAccount} = useContext(TransactionContext);
 
   return (
-    <div className="flex w-full justify-center items-center 2xl:px-20 gradient-bg-transactions">
+    <div className="flex w-full justify-center items-center 2xl:px-20 gradient-bg-transactions h-[100vh]">
       <div className="flex flex-col md:p-12 py-12 px-4">
+        <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient text-center">
+          What's the logic of gifentivizing ?
+        </h1>
+
+        <p className="my-2 text-white font-light text-base text-center">
+          Every transaction you make, we'll add a cool GIF to it while
+          recording. Sounds interesting ?
+        </p>
+
         {currentAccount ? (
-          <h3 className="text-white text-3xl text-center my-2">
-            Latest transactions recorded on chain ...
-          </h3>
+          // <h6 className="text-white text-2xl text-center mt-10">
+          //   Here are some of the cool transactions recorded on chain ...
+          // </h6>
+          <p className="my-2 text-white font-light text-base text-center">
+            Here are some of the cool transactions recorded on chain :)
+          </p>
         ) : (
-          <h3 className="text-white text-3xl text-center my-2">
-            Connect your metamask to see the latest transactions on chain.
-          </h3>
+          <h6 className="text-white text-2xl text-center mt-10">
+            Connect your metamask wallet to see those cool transactions.
+          </h6>
         )}
 
         {/* looping over the list of transactions  */}
-        <div className="flex flex-wrap justify-center items-center mt-10">
+        <div className="flex flex-wrap justify-center items-center mt-5">
           {[...transactions].reverse().map((transaction, i) => (
             <TransactionsCard key={i} {...transaction} />
           ))}

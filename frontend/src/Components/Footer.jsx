@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="w-full flex justify-center items-center flex-col p-4 gradient-bg-footer">
+    <div className="w-full flex justify-center items-center flex-col p-5 gradient-bg-footer">
       <div className="md:w-[75%] w-full flex justify-center my-4">
         <div className="md:flex-[1] justify-self-center tems-center">
           <h3 className="text-2xl sm:text-3xl text-white text-gradient">
@@ -43,24 +43,21 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center flex-col mt-5">
+      {/* <div className="flex justify-center items-center flex-col mt-5">
         <p className="text-white text-sm text-center">
           Come join us in this new WEB3 journey !
         </p>
         <p className="text-white text-sm text-center font-medium mt-2">
-          {" "}
-          {/* rht.tech@gmail.com */}
           React | Blockchain | Web3 | MetaMask | HardHat
         </p>
-      </div>
+      </div> */}
 
       <div className="sm:w-[75%] w-full h-[0.25px] bg-gray-400 mt-5 " />
 
-      <div className="sm:w-[75%] w-full flex justify-between items-center mt-3">
-        <p className="text-white text-left text-xs">Rohit Roy</p>
-        <p className="text-white text-right text-xs">
+      <div className="sm:w-[75%] w-full flex justify-between items-center mt-5">
+        <p className="text-white justify-center align-middle w-full flex text-sm cursor-pointer">
           <a href="https://github.com/rohitroy-github/vite-web3-gifentivize">
-            Project | 2022
+            Rohit Roy | Project | 2022
           </a>
         </p>
       </div>
