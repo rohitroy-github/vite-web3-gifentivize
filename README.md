@@ -6,9 +6,11 @@
 
 <b>Snapshots from the project : </b>
 
-![c1](https://github.com/rohitroy-github/vite-web3-gifentivize/assets/68563695/ca3a2031-0d6c-4c18-88a4-4fc7c5396c26)
+![c1](https://github.com/rohitroy-github/vite-web3-gifentivize/assets/68563695/cb24a9f3-6896-47ac-b339-8854e1144d92)
 
-![c2](https://github.com/rohitroy-github/vite-web3-gifentivize/assets/68563695/472920c0-e983-49cb-b002-51a8ea98db33)
+![c2](https://github.com/rohitroy-github/vite-web3-gifentivize/assets/68563695/db5579ab-0066-4775-86a1-7bd296b41002)
+
+![c3](https://github.com/rohitroy-github/vite-web3-gifentivize/assets/68563695/f176ebbf-1536-40d0-9454-8d6379a3b7fb)
 
 <b>Tech Stack :</b>
 
