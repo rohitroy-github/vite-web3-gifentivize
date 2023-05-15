@@ -18,7 +18,9 @@
     <li>Vite JS</li>
     <li>Tailwind CSS</li>
 </ul>
+
 <b>Backend :</b>
+
 <ul>
     <li>Node JS</li>
     <li>Hardhat Development Environment</li>
