@@ -4,11 +4,9 @@
 
 <b>Snapshots from the project : </b>
 
-![c1](https://github.com/rohitroy-github/vite-voting-dapp/assets/68563695/797ef5ad-8df6-484b-8a75-ceff84e576fd)
+![c1](https://github.com/rohitroy-github/vite-web3-gifentivize/assets/68563695/ca3a2031-0d6c-4c18-88a4-4fc7c5396c26)
 
-![c3](https://github.com/rohitroy-github/vite-voting-dapp/assets/68563695/d50d4440-79d4-485f-932a-b320358ae7c1)
-
-![c4](https://github.com/rohitroy-github/vite-voting-dapp/assets/68563695/8063f77f-676e-4b13-b179-992fc9e62530)
+![c2](https://github.com/rohitroy-github/vite-web3-gifentivize/assets/68563695/472920c0-e983-49cb-b002-51a8ea98db33)
 
 <b>Tech Stack :</b>
 
