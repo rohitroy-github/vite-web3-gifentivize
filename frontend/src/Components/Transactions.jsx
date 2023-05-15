@@ -24,10 +24,10 @@ const TransactionsCard = ({
   return (
     <div
       className="bg-[#181918] m-5 flex flex-1
-    2xl:min-w-[350px]
-    2xl:max-w-[400px]
-    sm:min-w-[270px]
-    sm:max-w-[300px]
+    2xl:min-w-[300px]
+    2xl:max-w-[350px]
+    sm:min-w-[250px]
+    sm:max-w-[250px]
     min-w-full
     flex-col p-5 rounded-md hover:shadow-2xl"
     >
@@ -35,7 +35,7 @@ const TransactionsCard = ({
         <div className="w-full mb-6 p-2">
           {/* click > see transaction details through etherscan */}
           <a
-            href={`https://goerli.etherscan.io/address/${addressFrom}`}
+            href={`https://sepolia.etherscan.io/address/${addressFrom}`}
             target="_blank"
             rel="noreferrer"
           >
@@ -44,7 +44,7 @@ const TransactionsCard = ({
             </p>
           </a>
           <a
-            href={`https://goerli.etherscan.io/address/${addressTo}`}
+            href={`https://sepolia.etherscan.io/address/${addressTo}`}
             target="_blank"
             rel="noreferrer"
           >
@@ -63,7 +63,7 @@ const TransactionsCard = ({
         <img
           src={gifUrl || url}
           alt="gif"
-          className="w-full h-64 2xl:h-96 rounded-md shadow-lg object-cover"
+          className="w-full h-50 2xl:h-80 rounded-md shadow-lg object-cover"
         />
         <div className="bg-black p-3 px-5 w-max rounded-3xl -mt-5 shadow-2xl">
           <p className="text-[#37c7da] font-bold">{timestamp}</p>
